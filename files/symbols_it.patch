@@ -1,0 +1,14 @@
+--- it	2021-02-21 17:52:05.380403814 +0100
++++ it	2021-02-19 20:00:07.215096515 +0100
+@@ -377,11 +377,3 @@
+     // Sicilian - Italian (where we replaced ugrave with uacute)
+     key <BKSL> { [ uacute,     section,      ugrave,      dead_breve ] };
+ };
+-
+-partial alphanumeric_keys
+-    xkb_symbols "cstm" {
+-    include "it(basic)"
+-    name[Group1] = "ItalianCustom";
+-    key <AB08> { [ comman,   semicolon,                         less ] };
+-    key <AB09> { [ period,       colon,                      greater ] };
+-};

@@ -1,0 +1,10 @@
+--- base.lst	2021-02-20 12:53:03.521016695 +0100
++++ base.lst	2021-02-20 12:52:18.272330348 +0100
+@@ -552,7 +552,6 @@
+   intl            it: Italian (intl., with dead keys)
+   scn             it: Sicilian
+   fur             it: Friulian (Italy)
+-  cstm            it: Italian Custom Keys
+   kana            jp: Japanese (Kana)
+   kana86          jp: Japanese (Kana 86)
+   OADG109A        jp: Japanese (OADG 109A)

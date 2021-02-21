@@ -1,0 +1,19 @@
+--- evdev.xml	2021-02-20 12:56:30.419708973 +0100
++++ evdev.xml	2021-02-21 17:55:58.478621339 +0100
+@@ -3961,16 +3961,6 @@
+             </languageList>
+           </configItem>
+         </variant>
+-        <variant>
+-          <configItem>
+-            <name>cstm</name>
+-            <description>Italian Custom Keys</description>
+-            <languageList>
+-              <iso639Id>ita</iso639Id>
+-              <iso639Id>cstm</iso639Id>
+-            </languageList>
+-          </configItem>
+-        </variant>
+       </variantList>
+     </layout>
+     <layout>
