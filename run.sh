@@ -20,8 +20,8 @@ if [ -f "$ALSAFILE" ]; then
         echo -e "\tFix for audio not exist! Applying fix"
         echo -e "\tBACKUP original ALSA file into BAK directory"
         sudo cp $ALSAFILE $BAKDIR
-        sudo echo "# Audio Clicking Fix" >> $ALSAFILE
-        sudo echo "$ALSAFIXSTRING" >> $ALSAFILE
+        sudo bash -c "echo '# Audio Clicking Fix' >> $ALSAFILE"
+        sudo bash -c "echo '$ALSAFIXSTRING' >> $ALSAFILE"
     fi
 else
     echo "$ALSAFILE not exists."
